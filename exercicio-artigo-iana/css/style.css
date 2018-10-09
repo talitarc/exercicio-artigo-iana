@@ -86,3 +86,87 @@ footer {
     padding: 0.1%;
     margin: 1px;
 }
+
+@media (max-width: 1200px) {
+
+}
+}
+
+@media(max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 420px) {
+    body {
+        margin: 10px;
+        width: 90%;
+    }
+    header {
+        text-align: center;
+        padding: 5px 50px;
+    }
+    nav {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .logo {
+        display: flex;
+        text-align: center;
+        width: 100%;
+    }
+    
+    ul {
+        display: flex;
+        padding: 0px;
+        padding-left: 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: right;
+        font-size: 12px;
+        width: 100%;
+        line-height: 24px;
+        margin 0px;
+}
+    li {
+        display: flex;
+        padding: 0px;
+    }
+
+    aside {
+        margin: 10px;
+        width: 75%;
+        vertical-align: 0px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .post {
+        width: 98%;
+    }
+
+    .photo-post {
+        width: 98%;
+        text-align: center;
+        padding-right: 2px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
